@@ -13,10 +13,14 @@ body{
     font-size: 10px;
 }
 
+strong {
+    font-weight: 500;
+}
+
 .about {
     display: flex;
     padding: 32px 40px 24px 40px;
-    background-color: #E25544;
+    background-color: #5e4d4e;
     color: white;
 }
 .about_name {
@@ -38,4 +42,107 @@ body{
     height: 114px;
     border-radius: 50%;
     margin-left: 50px;
+}
+
+.main{
+    padding: 0 40px;
+    background-color: white;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.contacts_link{
+    text-decoration: none;
+    color:#485268;
+}
+
+.info_title{
+    color: #5e4d4e;
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.info{
+    border-top: 1px solid #DEE2ED;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_content{
+     width: 360px;
+}
+
+.job{
+    margin-top: 24px;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+}
+
+.job:first-child {
+    margin-top: 0;
+}
+
+.job_description {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.job_title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize; 
+}
+
+.study_title{
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+.study {
+    margin-top: 24px;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+}
+
+.study:first-child {
+    margin-top: 0;
+}
+
+.tools{
+    display: flex;
+
+}
+
+.tools_list{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    width: 50%;
+    border-left: 1px dashed #DEE2ED;
+    padding-left: 8px;
+}
+
+.tools_item{
+    margin-top: 8px;
+
+}
+
+.tools__item:first-child {
+    margin-top: 0px;
+}
+
+.skills{
+    display: flex;
 }
