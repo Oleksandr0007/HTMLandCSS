@@ -53,11 +53,15 @@ strong {
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
+    
 }
 
 .contacts_link{
     text-decoration: none;
+    padding: 23px 40px 24px 40px;
+    margin: -24px -40px;
     color:#485268;
+    
 }
 
 .info_title{
@@ -150,17 +154,11 @@ strong {
 
 /*TEST HOVER*/
 
-
-.blok:hover{
-    background-color:#5e4d4e;
-    padding: 23px 40px 24px 40px;
-    margin: -24px -40px;
-    border-top: 1px white solid ;
-}
-
 .contacts_link:hover{
     text-decoration: none;
     color:#fff;
-    padding: 23px 40px 24px 40px;
+    padding: 23px 40px 23px 40px;
     margin: -24px -40px;
+    background-color:#5e4d4e;
+    border-top: 1px white solid ;
 }
