@@ -162,3 +162,9 @@ strong {
     background-color:#5e4d4e;
     border-top: 1px white solid ;
 }
+
+.about_photo:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 2px;
+}
